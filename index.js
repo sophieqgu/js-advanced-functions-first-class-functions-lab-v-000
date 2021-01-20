@@ -20,7 +20,7 @@ const fareDoubler = function(fare) {
 }
 
 const fareTripler = function(fare) {
-  reateFareMultiplier(3)(fare);
+  createFareMultiplier(3)(fare);
 }
 
 function selectDifferentDrivers(array_of_drivers, selection_function) {
